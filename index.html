@@ -91,7 +91,7 @@
             align-items: center;
         }
         .cronometro{
-            margin-top: 50px;
+            margin-top: 5px;
             background-color: #566484;
             height: 100px;
             width: 300px;
@@ -124,6 +124,21 @@
             color: #606060;
             font-size: 9px;
         }
+        .flecha{
+            text-align: center;
+        }
+        .flecha img{
+            height: 40px;
+            width: 40px;
+            margin: 0;
+            padding: 0;
+            opacity: 0;
+            animation: aparecer 1s ease-in-out forwards infinite;
+        }
+        @keyframes aparecer {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
     </style>
 </head>
 <body>
@@ -138,6 +153,9 @@
             <span class="evento-d">20</span>
             <span class="evento-h">8:00 PM</span>
         </div>
+        <figure class="flecha">
+            <img src="flecha.svg" alt="">
+        </figure>
         <div class="cronometro-conteiner">
             <div class="cronometro">
                 <p class="crono-title">Cuenta regresiva</p>
