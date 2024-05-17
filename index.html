@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento</title>
+    <style>
+        @font-face {
+            font-family: honilad;
+            src: url(./honilad/honilad-demo.otf);
+        }
+        @font-face {
+            font-family: loubag;
+            src: url(./loubag/Loubag-Regular.ttf);
+        }
+        @font-face{
+            font-family: loubag-light;
+            src: url(./loubag/Loubag-Light.ttf);
+        }
+        body{
+            margin: 0px;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .conteiner-portada{
+            height: 900px;
+            background-image: url(fondo-portada.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            display: grid;
+            place-content: center;
+        }
+        .quiceaniero{  margin: 0;
+            font-family: honilad;
+            font-size: 100px;
+            color: #566484;
+        }
+        .mis-15{
+            color: #606060;
+            font-family: loubag;
+            font-size: 20px;
+        }
+        .title-conteiner{
+            width: 300px;
+            height: 200px;
+            text-align: center;
+        }
+        .conteiner-beneficios{
+            height: 900px;
+            background-image: url(fondo-beneficios.png);
+            background-size: cover;
+            background-attachment: scroll;
+            background-position: center;
+            display: grid;
+        }
+        .conteiner-asistencia{
+            height: 900px;
+            background-image: url(fondo-invierno.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            display: grid;
+        }
+        .fecha-evento{
+            margin-top: 50px;
+            text-align: center;
+        }
+        .evento-m, .evento-h{
+            font-family: loubag;
+            border-top: dashed 1px #606060;
+            border-bottom: dashed 1px #606060;
+            color: #606060;
+            text-transform: uppercase;
+        }
+        .evento-d{
+            font-family: loubag;
+            font-size: 30px;
+            color: #566484;
+        }
+        .cronometro, .crono-title{
+            font-family: loubag;
+            color: whitesmoke;
+            margin-top: 10px;
+        }
+        .cronometro-conteiner{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100;
+            align-items: center;
+        }
+        .cronometro{
+            margin-top: 50px;
+            background-color: #566484;
+            height: 100px;
+            width: 300px;
+            border: solid 2px whitesmoke;
+            border-radius: 20px;
+        }
+        .time{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .time p{
+            margin: 0;
+        }
+        .iglesia-conteiner{
+            margin-top: 40px;
+            display: inline-block;
+            text-align: center;
+        }
+        .iglesia-title{
+            margin: 0;
+            font-family: loubag;
+            font-size: 16px;
+            font-weight: bold;
+            color: #606060;
+        }
+        .iglesia-descrip{
+            margin: 0;
+            font-family:loubag-light;
+            color: #606060;
+            font-size: 9px;
+        }
+    </style>
+</head>
+<body>
+    <section class="conteiner-portada">
+        <div class="title-conteiner">
+                <span class="mis-15">MIS 15 AÑOS</span>
+                <p class="quiceaniero">Valeria</p>
+                <p class="quiceaniero">Aponte</p>
+        </div>
+        <div class="fecha-evento">
+            <span class="evento-m">Diciembre</span>
+            <span class="evento-d">20</span>
+            <span class="evento-h">8:00 PM</span>
+        </div>
+        <div class="cronometro-conteiner">
+            <div class="cronometro">
+                <p class="crono-title">Cuenta regresiva</p>
+                <div class="time">
+                    <p>90</p>
+                    <p>00</p>
+                    <p>00</p>
+                    <p>00</p>
+                </div>
+            </div>
+        </div>
+        <figure class="iglesia-conteiner">
+            <img src="iglesia.svg" alt="iglesia">
+            <p class="iglesia-title">Ceremonia</p>
+            <p class="iglesia-descrip">Lorem ipsum dolor sit amet</p>
+        </figure>
+
+    </section>
+    <section class="conteiner-beneficios">
+        <h1>Hola</h1>
+    </section>
+    <section class="conteiner-asistencia">
+        <h1>Hola</h1>
+    </section>
+</body>
+</html>
