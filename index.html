@@ -53,6 +53,7 @@
             background-attachment: scroll;
             background-position: center;
             display: grid;
+            place-content: center;
         }
         .conteiner-asistencia{
             height: 900px;
@@ -139,6 +140,13 @@
         from { opacity: 0; }
         to { opacity: 1; }
     }
+    .divisor-conteiner{
+        text-align: center;
+    }
+    .copa-conteiner{
+        margin-top: 0px;
+        text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -175,7 +183,12 @@
 
     </section>
     <section class="conteiner-beneficios">
-        <h1>Hola</h1>
+        <figure class="divisor-conteiner">
+            <img src="divisor.svg" alt="">
+        </figure>
+        <figure class="copa-conteiner">
+            <img src="copa.svg" alt="">
+        </figure>
     </section>
     <section class="conteiner-asistencia">
         <h1>Hola</h1>
