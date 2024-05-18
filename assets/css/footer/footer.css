@@ -1,0 +1,21 @@
+@import url(../variables.css);
+@font-face {
+    font-family: good-vibrations;
+    src: url(../../fonts/good-vibrations.ttf);
+}
+.footer {
+    background-color: var(--color-light);
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.invitados {
+    font-family: good-vibrations;
+    color: var(--color-secondary);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
