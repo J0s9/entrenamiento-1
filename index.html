@@ -176,7 +176,37 @@
         justify-content: center;
         align-items: center;
     }
-    button{
+    input{
+        margin-top: 10px;
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        border: 0;
+        background-color: whitesmoke;
+        font-family: loubag;
+        color: #606060;
+    }
+    input::placeholder{
+        text-align: center;
+    }
+    .btn-enviar{
+        margin-top: 40px;
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        border: double 5px #566484;
+        background-color: whitesmoke;
+        font-family: loubag;
+        color: #606060;
+        font-weight: bold;
+    }
+    .btn-enviar:hover{
+        cursor: pointer;
+        background-color: #606060;
+        border: double 5px whitesmoke;
+        color: white;
+    }
+    .bnf-1,.bnf-2,.bnf-3{
         margin-top: 10px;
         width: 250px;
         height: 40px;
@@ -194,6 +224,23 @@
         font-family: loubag;
         margin: 0;
         color: whitesmoke;
+    }
+    .form-conteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #606060;
+        height: 500px;
+        width: 300px;
+        background-color: #566484;
+        border: double 10px whitesmoke ;
+        border-radius: 30px;
     }
     </style>
 </head>
@@ -253,14 +300,24 @@
                     <img src="carta.svg" alt="">
                 </figure>
                 <p class="regalos-title">Lluvia de regalos</p>
-                <button>Beneficio 1</button>
-                <button>Beneficio 2</button>
-                <button>Beneficio 3</button>
+                <button class="bnf-1">Beneficio 1</button>
+                <button class="bnf-2">Beneficio 2</button>
+                <button class="bnf-2">Beneficio 3</button>
             </div>
         </div>
     </section>
     <section class="conteiner-asistencia">
-        <h1>Hola</h1>
+        <div class="form-conteiner">
+            <form action="/" class="formulario">
+                <label for="" id="">
+                    <input type="text" placeholder="Primer Nombre">
+                </label>
+                <label for="">
+                    <input type="text" placeholder="Primer Apellido">
+                </label>
+                <button class="btn-enviar">Enviar Asistencia</button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
