@@ -17,6 +17,10 @@
             font-family: loubag-light;
             src: url(./loubag/Loubag-Light.ttf);
         }
+        @font-face {
+            font-family: good-vibrations;
+            src: url(good-vibrations.ttf);
+        }
         body{
             margin: 0px;
             padding: 0%;
@@ -190,8 +194,8 @@
         text-align: center;
     }
     .btn-enviar{
-        margin-top: 40px;
-        width: 250px;
+        margin-top: 30px;
+        width: 180px;
         height: 40px;
         border-radius: 15px;
         border: double 5px #566484;
@@ -202,7 +206,7 @@
     }
     .btn-enviar:hover{
         cursor: pointer;
-        background-color: #606060;
+        background-color: #5d6578;
         border: double 5px whitesmoke;
         color: white;
     }
@@ -241,6 +245,34 @@
         background-color: #566484;
         border: double 10px whitesmoke ;
         border-radius: 30px;
+    }
+    .form-title{
+        margin: 0;
+        font-family: honilad;
+        text-align: center;
+        font-size: 50px;
+        color: whitesmoke;
+    }
+    label{
+        margin-top: 16px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: loubag;
+        font-size: 14px;
+    }
+    .footer{
+        background-color: whitesmoke;
+        margin: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .invitados{
+        font-family: good-vibrations;
+        color: #606060;
+        font-size: 25px;
+        text-decoration: none;
     }
     </style>
 </head>
@@ -309,15 +341,26 @@
     <section class="conteiner-asistencia">
         <div class="form-conteiner">
             <form action="/" class="formulario">
-                <label for="" id="">
+                <h1 class="form-title">Formulario de Asistencia</h1>
+                <label for="">Nº de Identidad
+                    <input type="number" placeholder="Nro de Identidad">
+                </label>
+                <label for="" id="">Primer Nombre
                     <input type="text" placeholder="Primer Nombre">
                 </label>
-                <label for="">
+                <label for="">Primer Apellido
                     <input type="text" placeholder="Primer Apellido">
                 </label>
                 <button class="btn-enviar">Enviar Asistencia</button>
             </form>
         </div>
     </section>
+    <footer class="footer">
+        <a href="https://www.invitados.com.py/new/" class="invitados">Invitados</a>
+        <a href="https://www.facebook.com/profile.php?id=100078168030802&sk=about"><img src="facebook.svg" alt=""></a>
+        <a href="https://www.instagram.com/invitados.oficial/"><img src="instagram.svg" alt=""></a>
+        <a href="https://wa.link/pxuj4z"><img src="whatsapp.svg" alt=""></a>
+        
+    </footer>
 </body>
 </html>
