@@ -88,7 +88,7 @@
             display: flex;
             flex-direction: column;
             text-align: center;
-            width: 100;
+            width: 100%;
             align-items: center;
         }
         .cronometro{
@@ -148,7 +148,7 @@
         text-align: center;
     }
     .tenida-conteiner{
-        margin-top: 50px;
+        margin-top: 10px;
         width: 100vw;
         height: 200px;
         background-color: #566484;
@@ -158,6 +158,42 @@
         margin-top: 10px;
         color: aliceblue;
         font-family: loubag;
+    }
+    .regalos-conteiner{
+        display: flex;
+        justify-content: center;
+    }
+    .regalos{
+        background-color: #566484;
+        border: double 10px whitesmoke ;
+        border-radius: 30px;
+        margin-top: 50px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        margin-top: 10px;
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        border: 0;
+        background-color: whitesmoke;
+        font-family: loubag;
+        color: #606060;
+    }
+    .carta{
+        text-align: center;
+        margin: 0;
+    }
+    .regalos-title{
+        font-family: loubag;
+        margin: 0;
+        color: whitesmoke;
     }
     </style>
 </head>
@@ -210,6 +246,17 @@
                 <img src="vestido.svg" alt="">
                 <p class="tenida-title">Tenida elegante</p>
             </figure>
+        </div>
+        <div class="regalos-conteiner">
+            <div class="regalos">
+                <figure class="carta">
+                    <img src="carta.svg" alt="">
+                </figure>
+                <p class="regalos-title">Lluvia de regalos</p>
+                <button>Beneficio 1</button>
+                <button>Beneficio 2</button>
+                <button>Beneficio 3</button>
+            </div>
         </div>
     </section>
     <section class="conteiner-asistencia">
