@@ -178,7 +178,7 @@
     justify-content: center;
     align-items: center;
 }
-input {
+input{
     margin-top: 10px;
     width: 250px;
     height: 40px;
@@ -187,6 +187,10 @@ input {
     background-color: whitesmoke;
     font-family: loubag;
     color: #606060;
+}
+input:focus {
+    outline: solid 1px #606060;
+    box-shadow: 4px 4px 0 #606060;
 }
 input::placeholder {
     text-align: center;
@@ -207,7 +211,7 @@ input::placeholder {
 }
 .btn-text{
     font-family: loubag;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -224,10 +228,10 @@ input::placeholder {
     transition: 0.5s;
 }
 .btn-enviar:hover{
-    color: whitesmoke;
-    border: double 1px whitesmoke;
-    background-color: #606060;
-    box-shadow: 4px 4px 0 whitesmoke;
+    color: #606060;
+    border: double 4px #606060;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 0 #606060;
 }
 @keyframes wave{
     from{
@@ -357,14 +361,14 @@ label {
         <div class="form-conteiner">
             <form action="/" class="formulario">
                 <h1 class="form-title">Formulario de Asistencia</h1>
-                <label for="">Nº de Documento
-                    <input type="number" placeholder="Nº de Documento" required>
+                <label for="ci">Nº de Documento
+                    <input type="number" name="ci" id="ci" placeholder="Nº de Documento" required>
                 </label>
-                <label for="" id="">Primer Nombre
-                    <input type="text" placeholder="Primer Nombre" required>
+                <label for="name">Primer Nombre
+                    <input type="text" name="name" id="name" placeholder="Primer Nombre" required>
                 </label>
-                <label for="">Primer Apellido
-                    <input type="text" placeholder="Primer Apellido" required>
+                <label for="apellido">Primer Apellido
+                    <input type="text" name="apellido" id="apellido" placeholder="Primer Apellido" required>
                 </label>
                 <button class="btn-enviar" type="submit">
                     <div class="btn-text">Enviar Asistencia</div>
