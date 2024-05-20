@@ -3,7 +3,7 @@
     src: url(../../fonts/Loubag-Regular.ttf);
 }
 .fecha-evento {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
