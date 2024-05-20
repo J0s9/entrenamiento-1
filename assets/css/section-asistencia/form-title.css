@@ -1,0 +1,11 @@
+@font-face {
+    font-family: honilad;
+    src: url(../../fonts/honilad-demo.otf);
+}
+.form-title {
+    margin: 0;
+    font-family: honilad;
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: loubag;
+    src: url(../../fonts/Loubag-Regular.ttf);
+}
+input{
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: whitesmoke;
+    font-family: loubag;
+    color: #606060;
+}
+input:focus {
+    outline: solid 1px #606060;
+    box-shadow: 4px 4px 0 #606060;
+}
+input::placeholder {
+    text-align: center;
+}

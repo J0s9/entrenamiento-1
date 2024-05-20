@@ -1,0 +1,10 @@
+.conteiner-beneficios {
+    height: 900px;
+    width: 100%;
+    background-image: url(../../img/fondo-beneficios.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    display: grid;
+    place-content: center;
+}

@@ -1,0 +1,12 @@
+.flecha{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    animation: aparecer 1s ease-in-out forwards infinite;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

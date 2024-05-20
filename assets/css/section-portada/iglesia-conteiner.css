@@ -1,0 +1,22 @@
+@font-face {
+    font-family: loubag;
+    src: url(../../fonts/Loubag-Regular.ttf);
+}
+.iglesia-conteiner {
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.iglesia-conteiner p:nth-child(2){
+    margin: 0;
+    font-family: loubag;
+    font-size: 16px;
+    font-weight: bold;
+    color: #606060;
+}
+.iglesia-conteiner p:nth-child(3) {
+    margin: 0;
+    font-family: loubag-light;
+    color: #606060;
+    font-size: xx-small;
+}

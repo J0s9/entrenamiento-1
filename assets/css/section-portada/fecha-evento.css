@@ -1,0 +1,23 @@
+@font-face {
+    font-family: loubag;
+    src: url(../../fonts/Loubag-Regular.ttf);
+}
+.fecha-evento {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fecha-evento > span:nth-child(1),
+.fecha-evento > span:nth-child(3){
+    font-family: loubag;
+    border-top: dotted 2px #606060;
+    border-bottom: dotted 2px #606060;
+    color: #606060;
+    text-transform: uppercase;
+}
+.fecha-evento > span:nth-child(2){
+    font-family: loubag;
+    font-size: 30px;
+    color: #566484;
+}

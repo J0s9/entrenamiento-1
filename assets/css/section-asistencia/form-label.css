@@ -1,0 +1,10 @@
+@font-face {
+    font-family: loubag;
+    src: url(../../fonts/Loubag-Regular.ttf);
+}
+label{
+    margin-top: 16px;
+    color: whitesmoke;
+    font-family: loubag;
+    font-size: 14px;
+}

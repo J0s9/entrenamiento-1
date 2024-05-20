@@ -1,0 +1,41 @@
+@font-face {
+    font-family: loubag;
+    src: url(../../fonts/Loubag-Regular.ttf);
+}
+.regalos-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regalos {
+    background-color: #566484;
+    border: double 10px whitesmoke;
+    border-radius: 30px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carta {
+    margin: 0;
+}
+.bnf-1, .bnf-2, .bnf-3 {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+    background-color: whitesmoke;
+    font-family: loubag;
+    color: #606060;
+}
+
+.regalos-conteiner p{
+    font-family: loubag;
+    margin: 0;
+    color: whitesmoke;
+}
