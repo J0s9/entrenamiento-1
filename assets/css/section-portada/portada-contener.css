@@ -7,7 +7,7 @@
     src: url(../../fonts/honilad-demo.otf);
 }
 .conteiner-portada {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(../../img/fondo-portada.jpg);
     background-size: cover;
