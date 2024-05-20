@@ -3,10 +3,10 @@
     src: url(../../fonts/Loubag-Regular.ttf);
 }
 .copa-conteiner {
-    margin-top: 20px;
     text-align: center;
 }
 .copa-conteiner p{
+    margin: 0;
     font-family: loubag;
     font-weight: bold;
     color: #606060;
