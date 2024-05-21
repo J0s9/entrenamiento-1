@@ -1,22 +1,35 @@
+@import url('../variables.css');
 @font-face {
     font-family: loubag;
     src: url(../../fonts/Loubag-Regular.ttf);
 }
-.cronometro {
-    margin-top: 5px;
-    background-color: #566484;
-    height: 100px;
-    width: 300px;
+.countdown{
+    background-color: var(--color-primary);
+    height: 120px;
+    width: 350px;
     border: double 5px whitesmoke;
     border-radius: 20px;
     font-family: loubag;
     color: whitesmoke;
+    padding: 1px;
 }
-.time {
+.countdown > p{
+    margin: 0;
+    font-size: medium;
+}
+.countdown-conteiner{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.time > p {
-    margin: 0px;
+.big-text{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px 20px;
+}
+.countdown-element{
+    text-align: center;
+}
+.countdown-element span{
+    font-size: smaller;
 }

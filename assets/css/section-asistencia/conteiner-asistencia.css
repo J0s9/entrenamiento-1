@@ -1,5 +1,5 @@
 .conteiner-asistencia {
-    height: 100vh;
+    min-height: calc(100vh - 50px);
     width: 100%;
     background-image: url(../../img/fondo-invierno.jpg);
     background-size: cover;
