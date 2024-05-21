@@ -39,3 +39,11 @@
     margin: 0;
     color: whitesmoke;
 }
+
+.regalos > button:hover{
+    color: #DCAB5C;
+    cursor: pointer;
+    font-size: small;
+    border: double 4px #606060;
+    box-shadow: 4px 4px 0 #606060;
+}
