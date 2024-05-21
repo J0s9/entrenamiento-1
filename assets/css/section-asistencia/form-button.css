@@ -38,7 +38,7 @@
     color: #DCAB5C;
     border: double 4px #606060;
     background-color: whitesmoke;
-    box-shadow: 4px 4px 0 #606060;
+    box-shadow: none;
 }
 @keyframes wave{
     from{
